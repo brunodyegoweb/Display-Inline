@@ -2,12 +2,13 @@
 
 .example {
     color: #000;
+    text-align: center;
 }
 
 .example-item {
+   display: inline;
     width: 33.333%;
     height: 150px;
-    display: inline;
 }
 
 .example-item_first {
