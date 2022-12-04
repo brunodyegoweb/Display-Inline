@@ -1,5 +1,15 @@
 @charset "utf-8";
 
+/*
+   >>DISPLAY: muda o comportamento da caixa onde contem o conteúdo
+   
+   >> DISPLAY: INLINE - máximo a esquerda possível - mesma linha, ois define letras e palavras - não funciona width e height - comportamento mde palavra- o que define o tamnaho da caixa é o conteúdo
+   
+   >> DISPLAY: BLOCK - ocupa a linha toda, basiado no pai(mudando o comportamento do pai muda o filho tbm) - não deixa na mesma linha - funciona width(basiado na altura do pai) e height (basiado no conteúdo) - não tem comportamento de palavra ou seja não acita text-alaine
+
+   >> DISPLAY: INLINE-BLOCK: - mesma linha - permite width e height - comportamentoo de palavra - tamnaho é definido pelo conteúdo
+*/
+
 .example {
     color: #000;
     text-align: center;
